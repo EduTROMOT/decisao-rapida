@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartão de Guerra - Eduardo em Execução Máxima</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      background: #111;
+      color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      background: #1e1e1e;
+      padding: 24px;
+      margin: 20px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #00ffff;
+    }
+    h1 { font-size: 28px; }
+    h2, h3 { font-size: 22px; margin-top: 30px; }
+    ul {
+      padding-left: 20px;
+      font-size: 18px;
+      list-style-type: square;
+    }
+    li {
+      margin-bottom: 12px;
+    }
+    .reminder {
+      background: #003333;
+      padding: 12px;
+      border-left: 5px solid #00ffff;
+      border-radius: 10px;
+      margin-top: 25px;
+      font-size: 18px;
+    }
+    .checkbox {
+      margin-bottom: 10px;
+    }
+    input[type="checkbox"] {
+      transform: scale(1.3);
+      margin-right: 8px;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .reset-btn {
+      background: #00ffff;
+      border: none;
+      color: #111;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    function resetCheckboxes() {
+      document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+    }
+  </script>
+</head>
+<body>
+  <div class="card">
+    <h1>⚡️ Painel de Execução Imediata - Eduardo</h1>
+    <ul>
+      <li><strong>1. Defina a decisão</strong> (1 frase clara)</li>
+      <li><strong>2. Faça 3 perguntas:</strong>
+        <ul>
+          <li>O que está em jogo?</li>
+          <li>Pior cenário realista?</li>
+          <li>O que precisa ser verdade?</li>
+        </ul>
+      </li>
+      <li><strong>3. Está 70% seguro?</strong> → DECIDA AGORA</li>
+      <li><strong>4. Escolha o caminho mais leve</strong> (ajustável)</li>
+      <li><strong>5. Programe revisão em 7 dias</strong></li>
+    </ul>
+    <div class="reminder">
+      <strong>LEMBRETE:</strong><br>
+      "Decidir com 70% + Ajustar >>> Esperar 100% e Paralisar."
+    </div>
+
+    <h2>🧠 Higiene Mental - Blindagem Diária</h2>
+    <ul>
+      <li><strong>Manhã:</strong> 2 minutos: "Decisões rápidas criam meu futuro."</li>
+      <li><strong>Antes de decidir:</strong> 3 respirações + "Erro corrigível > Inércia"</li>
+      <li><strong>Fim do dia:</strong> Avaliação: onde posterguei?</li>
+      <li><strong>Domingo:</strong> Autoavaliação: decisões tomadas x evitadas</li>
+    </ul>
+    <div class="reminder">
+      <strong>MANTRA:</strong><br>
+      "Velocidade + Correção > Perfeição + Paralisia."
+    </div>
+
+    <h3>📋 Checklist Diário</h3>
+    <ul>
+      <li class="checkbox"><input type="checkbox"> Decidi tudo o que precisava?</li>
+      <li class="checkbox"><input type="checkbox"> Tomei decisões com 70%+ segurança?</li>
+      <li class="checkbox"><input type="checkbox"> Agi imediatamente após decidir?</li>
+      <li class="checkbox"><input type="checkbox"> Programei revisão?</li>
+      <li class="checkbox"><input type="checkbox"> Identifiquei postergadores?</li>
+    </ul>
+    <div class="button-container">
+      <button class="reset-btn" onclick="resetCheckboxes()">Resetar Checklist</button>
+    </div>
+  </div>
+</body>
+</html>
