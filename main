@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartão de Bolso - Decisão Rápida + Higiene Mental + Checklist Diário</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    .card { background: #fff; padding: 20px; margin: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h1, h2, h3 { text-align: center; }
+    h1 { font-size: 22px; margin-bottom: 10px; }
+    h2, h3 { font-size: 20px; margin-top: 30px; margin-bottom: 10px; }
+    ul { padding-left: 20px; font-size: 16px; }
+    li { margin-bottom: 10px; }
+    .reminder { background: #eef; padding: 10px; border-left: 4px solid #36f; border-radius: 8px; margin-top: 20px; font-size: 16px; }
+    .checkbox { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Decisão Rápida - Eduardo</h1>
+    <ul>
+      <li><strong>1. Defina a decisão</strong> (1 frase)</li>
+      <li><strong>2. Responda rápido:</strong>
+        <ul>
+          <li>O que está em jogo?</li>
+          <li>Pior cenário realista?</li>
+          <li>O que precisa ser verdade?</li>
+        </ul>
+      </li>
+      <li><strong>3. Tem 70% de certeza?</strong> → DECIDA</li>
+      <li><strong>4. Prefira opção leve</strong> (facilidade de ajuste)</li>
+      <li><strong>5. Programe revisão em 7 dias</strong></li>
+    </ul>
+    <div class="reminder">
+      <strong>LEMBRETE:</strong><br>
+      "Decidir com 70% + Ajustar >>> Esperar 100% e Paralisar."
+    </div>
+
+    <h2>Rotina de Higiene Mental - Manter Velocidade</h2>
+    <ul>
+      <li><strong>Manhã:</strong> 2 minutos - Reafirme: "Decisões rápidas criam meu futuro."</li>
+      <li><strong>Antes de cada decisão:</strong> Respire 3x fundo e lembre: "Erro corrigível é melhor que inércia."</li>
+      <li><strong>Fim do dia:</strong> Revise: Tomei todas as decisões que podia hoje? Onde posterguei?</li>
+      <li><strong>Semanal:</strong> Autoavaliação rápida: Quantas decisões tomadas/quantas evitadas?</li>
+    </ul>
+    <div class="reminder">
+      <strong>MANTRA:</strong><br>
+      "Velocidade e Correção Superam Perfeição."
+    </div>
+
+    <h3>Checklist Diário - Decisão e Execução</h3>
+    <ul>
+      <li class="checkbox"><input type="checkbox"> Defini todas as decisões que precisava hoje?</li>
+      <li class="checkbox"><input type="checkbox"> Tomei decisões com no mínimo 70% de confiança?</li>
+      <li class="checkbox"><input type="checkbox"> Agi imediatamente após decidir?</li>
+      <li class="checkbox"><input type="checkbox"> Programei revisão para ajustes?</li>
+      <li class="checkbox"><input type="checkbox"> Identifiquei onde adiei e o que vou corrigir amanhã?</li>
+    </ul>
+  </div>
+</body>
+</html>
